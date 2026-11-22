@@ -1,0 +1,14 @@
+# Publish only the code, README and website. Everything else stays local.
+*
+!.gitignore
+!README.md
+!docs/
+!docs/index.html
+!docs/.nojekyll
+!scripts/
+!scripts/01_download_gee.py
+!scripts/02_preprocess.py
+!scripts/03_site_model.py
+!scripts/04_maps.py
+!scripts/05_dynamic_map.py
+!scripts/06_presentation.py
